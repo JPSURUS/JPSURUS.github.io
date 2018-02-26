@@ -1,4 +1,11 @@
 
+@font-face {
+font-family: "LemonMilk";
+src: url("JPSURUS.github.io/CSS/LemonMilk.otf");
+src: 
+url("JPSURUS.github.io/CSS/fonts/lemonmilk-webfont.woff") format("woff"),
+url("JPSURUS.github.io/CSS/LemonMilk.otf")) format("opentype")
+}
 
 h1 {
     font-family: 'Dosis', sans-serif;
@@ -9,7 +16,7 @@ h1 {
     color: #f5d376;
     }
 h1.TitleName {
-	font-family: 'Dosis', sans-serif;
+	font-family: 'LemonMilk', sans-serif;
     font-weight: 200;
     line-height: 46px;
     font-size: 40px;
