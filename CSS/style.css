@@ -53,13 +53,13 @@ p {
 
 a:any-link {
     text-decoration: none;
-     color: #f5d376;
+     color: #262262;
 }
 
 /* WebKit browsers */
 a:-webkit-any-link {
   text-decoration: none;
-   color: #f5d376;
+   color: #262262;
 }
 
 a.typewrite: {
