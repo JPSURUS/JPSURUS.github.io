@@ -13,7 +13,7 @@ li {
 h1 {
     font-family: 'lemonmilk', sans-serif;
     font-weight: 200;
-    font-size: 3.5vw;
+    font-size: 1vw;
     margin: 0 0 23px 0;
     color: #262262;
     -webkit-margin-before: 0px;
@@ -22,7 +22,7 @@ h1 {
 h1.PageTitle {
 	font-family: 'lemonmilk', sans-serif;
     font-weight: 200;
-    font-size: 3.5vw;
+    font-size: 2vw;
     color: #262262;
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
