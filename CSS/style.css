@@ -89,7 +89,8 @@ body{
 }
 
 .PageTitle {
-    align-self: left;
+    align-self: left, bottom;
+	align-self: bottom;
 }
 
 #platshowcase{
