@@ -1,11 +1,7 @@
 
 @font-face {
-    font-family: 'lemonmilk';
-    src: url('JPSURUS.github.io/CSS/lemonmilk-webfont.woff2') format('woff2'),
-         url('JPSURUS.github.io/CSS/lemonmilk-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+    font-family: "lemonmilk";
+    src: url(JPSURUS.github.io/LemonMilk.ttf) format("truetype");
 }
 
 h1 {
