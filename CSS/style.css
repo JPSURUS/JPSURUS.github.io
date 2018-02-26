@@ -273,7 +273,7 @@ img{
 }
 
 header nav{
-  float:right;
+  align-self: center;
   margin-top:10px;
 }
 
