@@ -65,8 +65,11 @@ body{
 #showcase{
     min-width: 1800px;
     min-height: 900px;
-  background:url('../images/indexbanner1.jpg') no-repeat center;
-  background-size: contain;
+  background:url('../images/indexbanner1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   align-self: center;
   text-align:center;
   color:#ffffff;
