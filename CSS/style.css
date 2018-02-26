@@ -18,12 +18,14 @@ h1 {
     -webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
     }
-h1.Title {
+h1.PageTitle {
 	font-family: 'lemonmilk', sans-serif;
     font-weight: 200;
     line-height: 46px;
     font-size: 40px;
     color: #f5d376;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
 }
 h2 {
     font-family: 'Dosis', sans-serif;
