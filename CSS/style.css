@@ -7,9 +7,9 @@
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%, -50%);
 }
 
 li {
@@ -34,6 +34,13 @@ h1.PageTitle {
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
 }
+
+h1.banner {
+    font-size: 80px;
+    color: #f5d376;
+    text-decoration: none;
+}
+
 h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 100;
