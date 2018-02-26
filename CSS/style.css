@@ -5,6 +5,22 @@
 	 url('lemonmilk-webfont.woff2') format("woff2");
 }
 
+nav.li {
+    width:86px;
+    height:inherit;
+    display:inline-block;
+
+    /* Fix bug in IE7 and below */
+    zoom:1;
+    *display:inline;
+}
+
+nav.li a {
+    display:block;
+    width:100%;
+    height:100%;
+}
+
 body {
    font-size: calc(0.75em + 1vmin);
 }
