@@ -5,6 +5,10 @@
 	 url('lemonmilk-webfont.woff2') format("woff2");
 }
 
+body {
+   font-size: calc(0.75em + 1vmin);
+}
+
 .centered {
     position: absolute;
     top: 80%;
