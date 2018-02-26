@@ -39,6 +39,7 @@ h1.banner {
     font-size: 80px;
     color: #f5d376;
     text-decoration: none;
+    object-fit: contain;
 }
 
 h2 {
