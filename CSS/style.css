@@ -1,10 +1,11 @@
 
 @font-face {
-font-family: "LemonMilk";
-src: url("JPSURUS.github.io/CSS/LemonMilk.otf");
-src: 
-url("JPSURUS.github.io/CSS/fonts/lemonmilk-webfont.woff") format("woff"),
-url("JPSURUS.github.io/CSS/LemonMilk.otf")) format("opentype")
+    font-family: 'lemonmilk';
+    src: url('lemonmilk-webfont.woff2') format('woff2'),
+         url('lemonmilk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 h1 {
@@ -16,7 +17,7 @@ h1 {
     color: #f5d376;
     }
 h1.TitleName {
-	font-family: 'LemonMilk', sans-serif;
+	font-family: 'lemonmilk', sans-serif;
     font-weight: 200;
     line-height: 46px;
     font-size: 40px;
