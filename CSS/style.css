@@ -8,6 +8,14 @@ h1 {
     margin: 0 0 23px 0;
     color: #f5d376;
     }
+h1.TitleName {
+	font-family: 'Dosis', sans-serif;
+    font-weight: 200;
+    line-height: 46px;
+    font-size: 40px;
+    margin: 0 0 23px 0;
+    color: #f5d376;
+}
 h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 100;
