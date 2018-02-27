@@ -1,127 +1,84 @@
 <!DOCTYPE html>
 <html>
 
-<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-
 <head>
-	<script src="JPSURUS.github.io/myscript.js"></script>
-	<title>Campaign Website | Welcome</title>
-	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="JPSURUS.github.io/CSS/style.css">
+    <title>Campaign Website | Welcome</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 
+<!--
+ ________  ________  ________  ___  ________          ___       __   ________  ________           ___  ___  _______   ________  _______      
+|\   ____\|\   __  \|\   __  \|\  \|\   ____\        |\  \     |\  \|\   __  \|\   ____\         |\  \|\  \|\  ___ \ |\   __  \|\  ___ \     
+\ \  \___|\ \  \|\  \ \  \|\  \ \  \ \  \___|        \ \  \    \ \  \ \  \|\  \ \  \___|_        \ \  \\\  \ \   __/|\ \  \|\  \ \   __/|    
+ \ \  \    \ \   _  _\ \   __  \ \  \ \  \  ___       \ \  \  __\ \  \ \   __  \ \_____  \        \ \   __  \ \  \_|/_\ \   _  _\ \  \_|/__  
+  \ \  \____\ \  \\  \\ \  \ \  \ \  \ \  \|\  \       \ \  \|\__\_\  \ \  \ \  \|____|\  \        \ \  \ \  \ \  \_|\ \ \  \\  \\ \  \_|\ \ 
+   \ \_______\ \__\\ _\\ \__\ \__\ \__\ \_______\       \ \____________\ \__\ \__\____\_\  \        \ \__\ \__\ \_______\ \__\\ _\\ \_______\
+    \|_______|\|__|\|__|\|__|\|__|\|__|\|_______|        \|____________|\|__|\|__|\_________\        \|__|\|__|\|_______|\|__|\|__|\|_______|
+                                                                                 \|_________|                                                
+-->
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-0">
+        <a class="navbar-brand lemon">Evan Gillon and Ayo Aladesanmi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-	<header>
-		<div class="container">
-			<div class="row">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto pb-1">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="candidates.html" class="nav-link">Candidates</a>
+                </li>
+                <li class="nav-item">
+                    <a href="meet.html" class="nav-link">The Team</a>
+                </li>
+                <li class="nav-item lemon">
+                    <a href="platform.html" class="nav-link">Platform</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-				<div class="column-md">
-					<div id="Page Title" align = "bottom">
-						<h1> Evan Gillon and Ayo Aladesanmi </h1>
-					</div>
-				</div>
-				
-				<div class="column-md">
-					<nav>
-						<ul>
-							<li> <a href="index.html" class = "head">Home</a></li>
-							<li> <a href="meet.html" class = "head">The Team</a></li>
-							<li> <a href="candidates.html" class = "head">Candidates</a></li>
-							<li> <a href="platform.html" class = "head">Platform</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</header>
+    <img src="img/indexbanner3.png" class="img-fluid pt-0" alt="Evan and Ayo Banner">
 
+    <div class="container mt-3">
+        <h1 class="display">About Us</h1>
+        <hr>
+        <h2>Our Mission</h2>
+        <p>
+            Our vision for Tech is to create a student government that continually supports all of the passions and enterprises of students, and advocates those interests to the Georgia Tech administration. Our promise is that we will work relentlessly to implement
+            helpful, sustainable, and creative programs, so that while students are at Tech, they will have the opportunity to self-actualize as world-renowned scholars and feel prepared to enter the world as stewards of progress and service.
+        </p>
+        <p>
+            We believe that SGA can best serve the Georgia Tech community by empowering others instead of serving ourselves, and we pledge to create an administration where we truly listen to what students want and need. Our platform is composed of realistic, implementable
+            goals that are within SGA’s scope as an organization, and we promise to never stop working until our time is over.
+        </p>
+        <hr>
+        <div class="row mb-3">
+            <div class="col-10 offset-1 text-center">
+                <a class="btn btn-default rounded-circle social-icon" href="https://facebook.com/evanayo2018">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn btn-default rounded-circle social-icon" href="https://instagram.com/evanayo2018">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a class="btn btn-default rounded-circle social-icon" href="https://youtube.com/user/evanayo2018">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 
-
-	<section id = "showcasemeet">
-		<div class="container">
-			<img src="JPSURUS.github.io/images/indexbanner3.png">
-		</div>
-	</section>
-
-
-
-
-	<div class="home-wrapper"> 
-
-		<div id ="about">
-			<div class="row">
-					 	<div class="space">
-					 	</div>
-			</div>
-
-			<div id ="home-wrapper-header">
-				<h1>About Us</h1>
-			</div>
-
-			<div id="home-content">
-				<div class="column-lrg">
-
-					<div class="row">
-						<div class="column-md">
-							<div class="pic-container">
-								<img src="./images/aboutus.jpg">
-							</div>
-						</div>
-
-						<div class="column-md">
-							<div class="row">
-
-							<H1>Our Mission</H1>
-							<p1><i>"Our vision for Tech is to create a student government that continually supports all of the passions and enterprises of students, and advocates those interests to the Georgia Tech administration. Our promise is that we will work relentlessly to implement helpful, sustainable, and creative programs, so that while students are at Tech, they will have the opportunity to self-actualize as world-renowned scholars and feel prepared to enter the world as stewards of progress and service. We believe that SGA can best serve the Georgia Tech community by empowering others instead of serving ourselves, and we pledge to create an administration where we truly listen to what students want and need. Our platform is composed of realistic, implementable goals that are within SGA’s scope as an organization, and we promise to never stop working until our time is over."</i></p1>
-						</div>
-					</div>
-
-					<div class="row">
-					 	<div class="space">
-					 	</div>
-					 </div>
-
-
-					<div class="row">
-						<div class="space">
-							<hr>
-						</div>
-					 </div>
-
-					 <div class="row">
-					 	<div class="space">
-					 	</div>
-					 </div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class = "footer"> 
-		<hr>
-		<div class = "space"> 
-			<p1></p1>
-		</div>
-		<div class = "column-lrg"> 
-			<div class = "socials">
-				<a href="http://www.facebook.com/evanayo2018">
-					<img src="./images/facebook.png" style="width:42px;height:42px;border:0;">
-				</a>
-
-				<a href="http://www.instagram.com/evanayo2018">
-					<img src="./images/insta.png" style="width:42px;height:42px;border:0;">
-				</a>
-
-				<a href="default.asp">
-					<img src="./images/youtube.png" style="width:42px;height:42px;border:0;">
-				</a>
-			</div>
-		</div>
-	</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-
 
 </html>
