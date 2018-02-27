@@ -308,7 +308,8 @@ header li {
 }
 
 .navbar-brand {
-    font-size: 25px;
+    font-size: 22px;
+    word-wrap: break-word;
 }
 
 .social-icon {
